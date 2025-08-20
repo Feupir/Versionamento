@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+}
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.CaixaTitulo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.CaixaParagrafo p {
+    text-align: center;
+    line-height: 1.6;
+}
+
+.BotaoVoltar {
+    margin-top: 20px;
+}
+
+.BotaoVoltar a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.BotaoVoltar a:hover {
+    text-decoration: underline;
+}
+
+li {
+        margin: 5px;
+}
+ul a{
+    text-decoration: none;
+    border: 1px solid #00272e;
+    padding: 1px 10px;
+    border-radius: 5%;
+    background-color: #0e00d1;
+    color: rgb(242, 236, 243);
+}
+ul a:hover {
+    padding: 2px 11px;
+    background-color: #2900be;
+    color: #fff;
+}
